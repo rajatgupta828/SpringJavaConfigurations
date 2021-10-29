@@ -13,6 +13,7 @@ import com.rajat.learning.logger.MyLoggerConfig;
 
 @Configuration
 @PropertySource("classpath:mylogger.properties")
+@PropertySource("classpath:sport.properties")
 public class SportConfig {
 	// Configurations Using the Bean configurations
 	
